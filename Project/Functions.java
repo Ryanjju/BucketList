@@ -5,7 +5,7 @@ public class Functions {
 
     public void addElement(ArrayList<String> bucket) {
         System.out.println("\n\nIf you want to quit just type 'break'\n\n--- Add Items ---");
-        Scanner reader = new Scanner(System.in);            // Temporarly Array for saving inputs
+        Scanner reader = new Scanner(System.in);            
         while (true) { 
             System.out.print("Add: ");
             String input = reader.nextLine();
